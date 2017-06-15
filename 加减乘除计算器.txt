@@ -1,0 +1,26 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<iostream>
+int main()
+{
+	int a, b, c;
+	char d;
+	scanf("%d%c%d", &a, &d, &b);
+	c = d;
+	switch (c)
+	{
+	case 42:printf("%d\n", a*b);
+		break;
+	case 43:printf("%d\n", a + b);
+		break;
+	case 45:printf("%d\n", a - b);
+		break;
+	case 47:printf("%d\n", a / b);
+		break;
+	default:
+		break;
+	}
+}
+	system("pause");
+	return 0;
+}
